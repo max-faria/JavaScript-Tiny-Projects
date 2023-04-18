@@ -1,0 +1,13 @@
+p:hover::before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-color: red;
+}
+
+p:after {
+  content: "";
+  display: block;
+  height: 10px;
+  background-color: green;
+}
